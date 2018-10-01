@@ -37,7 +37,7 @@ var game = {
   start: function() {
     timer = setInterval(game.countdown, 1000);
 
-    $("#sub-wrapper").prepend("<h2>Time Remaining: <span id='counter-number'>120</span> Seconds</h2>");
+    $("#sub-wrapper").prepend("<h2>Time Remaining: <span id='counter-number'>30</span> Seconds</h2>");
 
     $("#start").remove();
 
